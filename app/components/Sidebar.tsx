@@ -4,7 +4,8 @@ import { getAllNotes } from '../lib/redis'
 import SidebarNoteList from '@/components/SidebarNoteList'
 
 export default async function Sidebar() {
-  const notes = getAllNotes();
+  const notes = await getAllNotes();
+  // console.log('notes', notes);
   return (
     <>
       <section className="col sidebar">
