@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { getAllNotes } from '../lib/redis'
 import SidebarNoteList from '@/components/SidebarNoteList'
@@ -11,11 +12,11 @@ export default async function Sidebar() {
       <section className="col sidebar">
         <Link href={'/'} className="link--unstyled">
           <section className="sidebar-header">
-            <img
+            <Image
               className="logo"
               src="/logo.svg"
-              width="22px"
-              height="20px"
+              width="22"
+              height="20"
               alt=""
               role="presentation"
             />
