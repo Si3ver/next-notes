@@ -1,9 +1,12 @@
 {
   "cSpell.words": [
+    "callout",
+    "CSSRESET",
     "hdel",
     "hget",
     "hgetall",
     "hset",
-    "nocheck"
+    "nocheck",
+    "vercel"
   ]
 }
